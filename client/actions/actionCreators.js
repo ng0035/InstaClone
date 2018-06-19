@@ -1,22 +1,28 @@
-//increment likes
-export function increment(index){
-  return{
-    type : "INCREMENT_LIKES",
+// increment
+export function increment(index) {
+  return {
+    type: 'INCREMENT_LIKES',
     index
   }
 }
 
-//add comments
-export function addComment(postID,comment,author){
-  type : "ADD_COMMENT",
-  postId
-  comment
-  author
+// add comment
+export function addComment(postId, author, comment) {
+  return {
+    type: 'ADD_COMMENT',
+    postId,
+    author,
+    comment
+  }
 }
 
-//remove comments
-export function removeComment(postId,i){
-  type : "REMOVE_COMMENT",
-  postId
-  I
+// remove comment
+
+export function removeComment(postId, i) {
+  return {
+    type: 'REMOVE_COMMENT',
+    i,
+    postId,
+    
+  }
 }
