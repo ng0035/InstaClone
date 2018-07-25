@@ -1,6 +1,5 @@
-# Learn Redux
-
-A simple React + Redux implementation. This will be turned into a free video series once the app is totally fleshed out.
+# INSTAGRAM CLONE
+A simple React + Redux implementation. This uses react on the front end and redux for store.
 
 ## Running
 
